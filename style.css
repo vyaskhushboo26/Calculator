@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+}
+
+.bcontainer{
+    display: inline-block;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 49px;
+    background-color: #211f1f;
+    color: white;
+}
+
+input, text { 
+    unicode-bidi:bidi-override; 
+    direction: RTL; 
+   }
+
+button{
+    font-size: 30px;
+    width: 148px;
+    height: 55px;
+    background-color: rgb(208 208 208); 
+}
+
+.button1{
+    background-color: #FF9933;
+}
+
+.button2{
+    background-color: #138808
+}
+
+.button3{
+    background-color: red;
+}

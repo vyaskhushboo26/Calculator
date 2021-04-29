@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="bcontainer">
+            <input type="text" id="cname" name="cname" value="0">
+            <table class="tcontainer">
+                <tr>
+                    <td><button class="button button1" id="*" onclick="multiply()">*</button></td>
+                    <td><button class="button button1" id="/" onclick="multiply()">/</button></td>
+                    <td><button class="button button1" id="-" onclick="multiply()">-</button></td>
+                    <td><button class="button button1" id="+" onclick="multiply()">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" id="." onclick="multiply()" >.</button></td>
+                    <td><button class="button" id="9" onclick="multiply()">9</button></td>
+                    <td><button class="button" id="8" onclick="multiply()">8</button></td>
+                    <td><button class="button" id="7" onclick="multiply()">7</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" id="6" onclick="multiply()">6</button></td>
+                    <td><button class="button" id="5" onclick="multiply()">5</button></td>
+                    <td><button class="button" id="4" onclick="multiply()">4</button></td>
+                    <td><button class="button" id="3" onclick="multiply()">3</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" id="2" onclick="digitPressed2()">2</button></td>
+                    <td><button class="button" id="1" onclick="digitPressed1()">1</button></td>
+                    <td><button class="button" id="0" onclick="multiply()">0</button></td>
+                    <td><button class="button button2" id="=" onclick="multiply()">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button button3" id="c" onclick="multiply()">c</button></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
