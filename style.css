@@ -18,7 +18,7 @@ input{
 
 input, text { 
     unicode-bidi:bidi-override; 
-    direction: RTL; 
+    text-align: right; 
    }
 
 button{
