@@ -11,10 +11,21 @@
 <body>
     <div class="container">
         <h1>Calculator</h1>
+    <div class="output" id="screen">
+       
+        <div class="previous-operand" id="pname"></div>
+        <div class="cureent-operand" id="cname">0</div>
+    </div>
         <div class="bcontainer">
-            <input type="text" id="cname" name="cname" value="0">
             <table class="tcontainer">
-                <tr>
+             <!-- <tr>
+                     <input type="text" id="finalname" name="finalname" value="0">
+                 
+                 </tr>  
+                 <tr>
+                    <input type="text" id="changingname" name="changingname">
+                </tr>      -->
+                <tr> 
                     <td><button class="button button1" id="*" onclick="updateDisplayWithValue('x')">x</button></td>
                     <td><button class="button button1" id="/" onclick="updateDisplayWithValue('/')">/</button></td>
                     <td><button class="button button1" id="-" onclick="updateDisplayWithValue('-')">-</button></td>
@@ -36,7 +47,7 @@
                     <td><button class="button" id="2" onclick="updateDisplayWithValue('2')">2</button></td>
                     <td><button class="button" id="1" onclick="updateDisplayWithValue('1')">1</button></td>
                     <td><button class="button" id="0" onclick="updateDisplayWithValue('0')">0</button></td>
-                    <td><button class="button button2" id="=">=</button></td>
+                    <td><button class="button button2" id="=" onclick="myFinalReultOnDisplay('=')">=</button></td>
                 </tr>
                 <tr>
                     <td><button class="button button3" id="c" onclick="myClearContainer()">C</button></td>

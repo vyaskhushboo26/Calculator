@@ -1,14 +1,36 @@
 .container{
     text-align: center;
+    
 }
+.output{
+    
+        background-color: #2f2d2d;
+        color: white;
+        width: 48%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        padding: 5px;
+}
+.previous-operand{
+    
+    height: 35px;
 
+}
+.cureent-operand{
+    
+    height: 40px;
+    font-size: 30px;
+}
 .bcontainer{
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+/*
 table{
     margin: auto;
-}
+}*/
 
 input{
     font-size: 49px;
@@ -23,8 +45,8 @@ input, text {
 
 button{
     font-size: 30px;
-    width: 148px;
-    height: 55px;
+    width: 108px;
+    height: 45px;
     background-color: rgb(208 208 208); 
 }
 
